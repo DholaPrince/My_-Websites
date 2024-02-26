@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>contact</title>
-    <link rel="stylesheet" href="contact.css"/>
+    <link rel="stylesheet" href="contact.css" />
     <script>
         function storeFormData() {
             const formData = {
@@ -22,14 +23,11 @@
 
 
 <body>
-    <!-- <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav> -->
     <div class="c1">
+        <div id="mainlogo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgy6_cPuGqKl8uyNKAGJ8_AVyWDHzRBxR6_TYaCCtPdacai2qvFSKf9yAoZQ&s"
+                width="120px" height="60px" />
+        </div>
         <nav>
             <a href="index.html">HOME</a>
             <a href="about.html">ABOUT</a>
@@ -38,38 +36,67 @@
         </nav>
     </div>
 
-    <h1>Get In Touch.</h1>
-    
-    <form action="/submit_form" method="post">
-        <label for="name">Name *</label>
-        <input type="text" id="name" name="name" required>
+    <div id="head">
+        <h1>Get In Touch.</h1>
+    </div>
 
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email">
+    <div id="image">
+        <img src="https://www.thestonedge.com/assets/images/contact/contact-img.png" width="1200px" height="900px" />
+    </div>
+    <div class="forrm">
+        <form action="/submit_form" method="post">
+            <h1>Feel free with us</h1>
+            <label for="name">Name *</label>
+            <input type="text" id="name" name="name" required>
 
-        <label for="mobile">Mobile No. *</label>
-        <input type="tel" id="mobile" name="mobile" required>
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
 
-        <label for="message">Your Message</label>
-        <textarea id="message" name="message"></textarea>
+            <label for="mobile">Mobile No. *</label>
+            <input type="tel" id="mobile" name="mobile" required>
 
-        <!-- <input type="submit" value="Submit"> -->
-        <button onclick="storeFormData()" type="button">Submit</button>
-        <br> <br><br>
-    </form>
+            <label for="message">Your Message</label>
+            <textarea id="message" name="message"></textarea>
 
+            <!-- <input type="submit" value="Submit"> -->
+            <button onclick="storeFormData()" type="button">Submit</button>
+        </form>
+        <div id="teet">
+            <h2>Corporate House :</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+                Alias dicta error corporis? Sequi corrupti voluptatum quam.<br>
+                Facere delectus, tenetur dolore dolores quam in voluptates </p>
+                <button id="map">View-></button>
+            <br><br>
+            <h2>Corporate House :</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.<br>
+                Alias dicta error corporis? Sequi corrupti voluptatum quam.<br>
+                Facere delectus, tenetur dolore dolores quam in voluptates </p>
+                <button id="map">View-></button> <br> <br>
+                +91 92345678789 <br>
+                dpr@gmail.com
+        </div>
+
+    </div>
+    <br><br><br>
     <footer class="footer">
         <div class="above">
-            <div class="footer-logo">HC INTERIOR & ARCHITECTURE</div>
+            <div class="footer-logo">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgy6_cPuGqKl8uyNKAGJ8_AVyWDHzRBxR6_TYaCCtPdacai2qvFSKf9yAoZQ&s"
+                 width="100px" height="50px"/>
+            </div>
             <div class="footer-address">
+                <h3>address us</h3>
                 413 Arista Business Space, 3, Sindhu Bhavan Marg,<br>
                 Opp. HOF Showroom, Armieda, PRL Colony,<br>
                 Bodakdev, Ahmedabad, Gujarat 380054
             </div>
             <div class="footer-contact">
+                <h3>contact us</h3>
                 +91 99044 33466 | info@hcdesigns.in
             </div>
             <div class="footer-social-icons">
+                <h3>follow  us</h3>
                 <a href="#"><img src="images/instagram.png" alt="Instagram" width="30px" height="30px"></a>
                 <a href="#"><img src="images/twitter.png" alt="Twitter" width="30px" height="30px"></a>
             </div>
@@ -81,4 +108,5 @@
         </div>
     </footer>
 </body>
+
 </html>
